@@ -17,3 +17,4 @@ Processed name tag: {name_tag}
 '''
 # Show result 
 print(output)
+print('===Tag has been created===')
