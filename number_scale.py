@@ -3,8 +3,8 @@ number = int(input("Dame un numero y yo te voy a decir si este es positivo, nega
 
 # Compare number
 if number > 0:
-    print("Tu numero es positivo")
+    print("Tu número es positivo")
 elif number < 0:
-    print("Tu numero es negativo")
+    print("Tu número es negativo")
 else:
-    print("Tu numero es 0")
+    print("Tu número es 0")
