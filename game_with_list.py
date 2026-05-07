@@ -8,3 +8,6 @@ something = "something"
 for letra in something:
     empty.append(letra)
     print(letra.upper())
+    if letra == 'h':
+        print('[`w`]')
+        
