@@ -7,6 +7,7 @@ something = input("Give your favorite word to see if it hides a small robot in i
 # Fill the list with something
 for letra in something.lower():
     empty.append(letra)
+    print(empty)
     for letra in empty:
         if letra == 'h':
             print('[`w`]')
