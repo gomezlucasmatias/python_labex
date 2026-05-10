@@ -17,6 +17,6 @@ def divide(a, b):
     if b != 0:
         return a / b 
     else:
-        return 'Error: Division by zero' 
+        return 'Error: Division by zero'
 
 PI = 3.14159
