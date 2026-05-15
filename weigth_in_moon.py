@@ -14,5 +14,4 @@ peso_luna_aproximado = peso_tierra / 6
 
 # Mostrar resultados
 print("\n--- Resultados ---")
-print(f"Usando el método exacto: {peso_luna_exacto:.2f} kg")
-print(f"Usando la regla 'divide entre 6': {peso_luna_aproximado:.2f} kg")
+print(f"Tu peso en la luna es: {peso_luna_exacto:.2f} kg")
