@@ -1,0 +1,172 @@
+*🚀 Python Interview Questions with Answers — Part 1*  
+
+*🧠 Python Basics & Syntax*
+
+*1️⃣ What is Python and what makes it popular?*
+
+Python is a high-level, interpreted programming language known for its simple and readable syntax.
+
+*✅ Why Python is popular:*  
+- Easy to learn and beginner-friendly  
+- Huge community support  
+- Works for Web Development, AI, Data Science, Automation, Cybersecurity, etc.  
+- Large collection of built-in libraries  
+- Cross-platform support (Windows, Mac, Linux)  
+- Less code compared to many other languages  
+
+*📌 Example:*  
+`print("Hello World")`
+
+
+*2️⃣ What are the key features of Python?*
+
+Python has many powerful features:
+
+*✅ Key Features:*  
+- *Readable Syntax* → Easy to understand  
+- *Interpreted Language* → No compilation needed  
+- *Dynamically Typed* → No need to define variable types  
+- *Object-Oriented* → Supports OOP concepts  
+- *Large Standard Library* → “Batteries Included”  
+- *Cross-Platform* → Runs almost everywhere  
+- *Open Source* → Free to use  
+
+*📌 Example:*
+name = "Viniti"  
+age = 25
+Python automatically detects data types.
+
+*3️⃣ What is the difference between Python 2 and Python 3?*
+
+*Python 2*  
+- Older version  
+- `print "Hello"`  
+- Less Unicode support  
+- Integer division issue  
+- No longer maintained  
+
+*Python 3*  
+- Latest & recommended  
+- `print("Hello")`  
+- Better Unicode support  
+- Improved division  
+- Actively maintained  
+
+*📌 Example:*
+# Python 2  
+print "Hello"  
+
+# Python 3  
+print("Hello")
+*✅ Python 3 is preferred for all modern development.*
+
+
+*4️⃣ How do you install Python and a code editor / IDE?*
+
+*✅ Steps to install Python:*  
+1. Visit official Python website
+2. Download latest Python version  
+3. During installation: Check “Add Python to PATH”  
+4. Verify installation: `python --version`  
+
+*✅ Popular IDEs / Editors:*  
+- Visual Studio Code
+- PyCharm
+- Jupyter Notebook
+
+
+*5️⃣ How do you run a simple Python script?*
+
+*📌 Create a file:* `hello.py`  
+
+*📌 Write code:*  
+`print("Welcome to Python")`  
+
+*📌 Run in terminal:* `python hello.py`  
+
+*✅ Output:*  
+`Welcome to Python`
+
+*6️⃣ How do you write comments and docstrings?*
+
+*✅ Single-line comment*  
+`# This is a comment`
+
+*✅ Multi-line comment*
+"""  
+This is a  
+multi-line comment  
+"""
+
+*✅ Docstring*  
+Used to describe functions/classes.
+
+def add(a, b):  
+    """Returns sum of two numbers"""  
+    return a + b
+
+
+*7️⃣ What are the basic data types in Python?*
+
+*Data Type* → *Example*  
+- *int* → `10`  
+- *float* → `10.5`  
+- *str* → `"Python"`  
+- *bool* → `True`  
+- *NoneType* → `None`  
+
+*📌 Example:*
+x = 10  
+y = 3.14  
+name = "Python"  
+is_active = True  
+value = None
+
+
+*8️⃣ How does Python handle variables and dynamic typing?*
+
+Python uses dynamic typing, meaning you don't need to declare variable types manually.
+
+*📌 Example:*
+x = 10  
+x = "Hello"
+
+*✅ Same variable can store different data types.*  
+
+Python automatically determines the type during runtime.
+
+
+*9️⃣ What is the difference between expression and statement?*
+
+*✅ Expression*  
+Produces a value.  
+`5 + 3`
+
+*✅ Statement*  
+Performs an action.  
+`x = 5`
+
+*📌 Example:*  
+`x = 10 + 5`  
+- `10 + 5` → Expression  
+- `x =` → Statement  
+
+*🔟 How do you use the interactive Python interpreter (REPL)?*
+
+*REPL = Read → Evaluate → Print → Loop*
+
+*✅ Open terminal:* `python`  
+
+*✅ Example:*
+>>> 5 + 5  
+10  
+
+>>> print("Hello")  
+Hello
+
+*✅ Useful for:*  
+- Quick testing  
+- Debugging  
+- Learning Python interactively  
+
+*🚀 Double Tap ❤️ For Part-2!*
